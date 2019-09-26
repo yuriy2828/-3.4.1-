@@ -1,0 +1,69 @@
+.ease {
+    background-color: red;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+.ease:hover {
+    transition: width 2s ease 0.1s;
+    width: 100%;
+}
+
+.ease-in {
+    background-color: red;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+.ease-in:hover {
+    transition: width 2s ease-in 0.1s;
+    width: 100%;
+}
+
+.ease-out {
+    background-color: red;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+.ease-out:hover {
+    transition: width 2s ease-out 0.1s;
+    width: 100%;
+}
+
+.ease-in-out {
+    background-color: red;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+.ease-in-out:hover {
+    transition: width 2s ease-in-out 0.1s;
+    width: 100%;
+}
+
+.linear {
+    background-color: red;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+.linear:hover {
+    transition: width 2s linear 0.2s;
+    width: 100%;
+}
